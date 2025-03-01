@@ -1,0 +1,13 @@
+pandas
+notebook
+numpy
+scikit-learn
+matplotlib
+seaborn
+statsmodels
+pyYAML
+joblib
+python-box
+types-PyYAML
+ensure
+-e .
