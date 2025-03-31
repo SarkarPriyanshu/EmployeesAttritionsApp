@@ -10,4 +10,10 @@ joblib
 python-box
 types-PyYAML
 ensure
+evidently
+imblearn
+pycaret
+dvc
+optuna
+mlflow
 -e .

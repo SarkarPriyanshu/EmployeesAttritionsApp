@@ -1,0 +1,29 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts\data_ingestion_artifact
+  source_url: data\Attrition.csv
+  local_data_file_path : artifacts\data_ingestion_artifact\Attrition.csv
+
+data_validation:
+  referral_data_path: data\Attrition.csv
+  new_data_path: artifacts\data_splits_artifact\train.csv
+  data_split_dir: artifacts\data_splits_artifact
+  data_validation_dir: artifacts\data_validation_report_artifact
+  validation_report_file_name: artifacts\data_validation_report_artifact\validation_reports.html
+
+data_transformation:
+  data_transform_dir: artifacts\data_transformed_artifact
+  transformation_data_path: artifacts\data_splits_artifact\train.csv
+
+model_selection:
+  best_models_artifact_dir: artifacts\model_selection_artifact
+  best_models_dir: Attrition_Application\artifacts\model_selection_artifact
+  data_transform_dir: Attrition_Application\artifacts\data_transformed_artifact
+
+    
+  
+
+
+    
+  

@@ -1,0 +1,36 @@
+stages:
+  data_ingestion:
+    cmd: python src/Attrition_App/components/_01_data_ingestion.py
+    deps:
+      - src/Attrition_App/components/_01_data_ingestion.py
+      - config/config.yaml
+    outs:
+     - artifacts/data_ingestion_artifact
+
+  data_validation:
+    cmd: python src/Attrition_App/components/_02_data_validation.py
+    deps:
+      - src/Attrition_App/components/_02_data_validation.py
+      - config/config.yaml
+      - config/schema.yaml
+    outs:
+     - artifacts/data_validation_report_artifact
+
+  data_transformation:
+    cmd: python src/Attrition_App/components/_03_data_transformation.py
+    deps:
+      - src/Attrition_App/components/_03_data_transformation.py
+      - config/config.yaml
+      - config/schema.yaml
+    outs:
+     - artifacts/data_transformed_artifact
+
+  model_selection:
+    cmd: python src/Attrition_App/components/_04_model_selection.py
+    deps:
+      - src/Attrition_App/components/_04_model_selection.py
+      - config/config.yaml
+    outs:
+     - artifacts/model_selection_artifact         
+
+
