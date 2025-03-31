@@ -29,6 +29,7 @@ Before setting up the project, create a Python virtual environment. Run the foll
 #### Windows:
 ```bash
 python -m venv venv
+```
 
 
 ### Explanation of Commands:
