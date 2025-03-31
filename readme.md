@@ -67,6 +67,12 @@ The second image is the **Evidently Report**, which helps us identify the **targ
 
 
 ### 3.3 Model Selection
+image below workflow.
+First we use pycaret to fit data on different models.
+Then we select top 3 models.
+We use optuna to hyperparameter tuning and get the top performer
+While hyperparameter tuning we track it using MLFlow and set the tracking server
+
 ![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/Model_Selection.drawio%20(1).png)
 
 The image below is the **Mlflow Report**, which helps us compare the **differnt models performance** in a centralized server so whole team can understand which model performing better and why.
