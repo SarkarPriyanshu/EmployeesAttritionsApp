@@ -58,6 +58,8 @@ This ensures that you have all the necessary libraries installed in an isolated 
 ### 3.2 Data Validation
 ![Data Validation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/Data_validation.drawio.png)
 
+The second image is the **Evidently Report**, which helps us identify the **target drift problem**.
+
 ![Data Validation evidently](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/data_validation_evidently_report_dash.png)
 
 ### 3.3 Data Transformation
@@ -67,12 +69,15 @@ This ensures that you have all the necessary libraries installed in an isolated 
 ### 3.3 Model Selection
 ![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/Model_Selection.drawio%20(1).png)
 
+The image below is the **Mlflow Report**, which helps us compare the **differnt models performance** in a centralized server so whole team can understand which model performing better and why.
 
 ![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/mlflow_dashboard.png)
 
+The image below is the **Mlflow**, not only help us to **differnt models performance** but also help in understanding which **hyper parameter** is performing good.
 
 ![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/mlflow_single_model_parameter_compare.png)
 
+The image below is the **Mlflow**, help us to compare **differnt models performance metrics**
 
 ![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/mlflow_comapre_metric_of_multiple_models.png)
 
