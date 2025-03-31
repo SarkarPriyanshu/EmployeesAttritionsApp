@@ -53,6 +53,7 @@ This ensures that you have all the necessary libraries installed in an isolated 
 ![Project architecture](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/project_archetechture.drawio.png)
 
 ### 3.1 Data Ingestion
+The image below explains the data ingestion stage, in my project to reduce complexity we load data from local file system.
 ![Data Ingestion](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/data_ingestion.drawio.png)
 
 ### 3.2 Data Validation
