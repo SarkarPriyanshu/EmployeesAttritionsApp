@@ -81,3 +81,6 @@ The image below is the **Mlflow**, help us to compare **differnt models performa
 
 ![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/mlflow_comapre_metric_of_multiple_models.png)
 
+## Thank You
+
+Thank you for exploring this project! If you have any questions, feel free to reach out.
