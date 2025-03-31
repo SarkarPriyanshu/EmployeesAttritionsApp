@@ -50,5 +50,38 @@ python -m venv venv
 This ensures that you have all the necessary libraries installed in an isolated environment.
 
 ## 3. Project Architecture
-![alt text](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/project_archetechture.drawio.png)
+**project architecture blueprint**
+![Project architecture](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/project_archetechture.drawio.png)
+
+### 3.1 Data Ingestion
+**data ingestion blueprint**
+![Data Ingestion](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/data_ingestion.drawio.png)
+
+### 3.2 Data Validation
+**data validation blueprint**
+![Data Validation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/Data_validation.drawio.png)
+
+**evidently validation dashboard/report**
+![Data Validation evidently](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/data_validation_evidently_report_dash.png)
+
+### 3.3 Data Transformation
+**data transformation blueprint**
+![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/DataTransformation.drawio.png)
+
+
+### 3.3 Model Selection
+**model selection blueprint**
+![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/Model_Selection.drawio%20(1).png)
+
+**pycaret model selection**
+
+
+**mlflow experimentation tracking**
+![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/mlflow_multiple_model_params_compare.png)
+
+**mlflow hyperparameter tracking**
+![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/mlflow_multiple_model_params_compare.png)
+
+**mlflow comparing model performance metrics**
+![Data Transformation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/mlflow_comapre_metric_of_multiple_models.png)
 
