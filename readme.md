@@ -60,6 +60,7 @@ The image below explains the data ingestion stage, in my project to reduce compl
 ![Data Validation](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/Data_validation.drawio.png)
 
 The second image is the **Evidently Report**, which helps us identify the **target drift problem**.
+If new coming data during validation **evidently** get **Target drift or covaiant shift** the pipline stops there and store the detail report in artifacts. 
 
 ![Data Validation evidently](https://github.com/SarkarPriyanshu/EmployeesAttritionsApp/blob/main/images/data_validation_evidently_report_dash.png)
 
