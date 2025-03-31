@@ -29,3 +29,19 @@ Before setting up the project, create a Python virtual environment. Run the foll
 #### Windows:
 ```bash
 python -m venv venv
+
+
+### Explanation of Commands:
+1. **Creating Virtual Environment**: 
+   - On Windows, `python -m venv venv` creates a virtual environment named `venv`.
+   - On macOS/Linux, `python3 -m venv venv` creates the same.
+   
+2. **Activating the Virtual Environment**: 
+   - On Windows: `.\venv\Scripts\activate` to activate the virtual environment.
+   - On macOS/Linux: `source venv/bin/activate` to activate the virtual environment.
+
+3. **Installing Dependencies**: 
+   - Use `pip install -r requirements.txt` to install all dependencies from the `requirements.txt` file.
+
+This ensures that you have all the necessary libraries installed in an isolated environment.
+
