@@ -7,9 +7,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 REPO_NAME = "EmployeeAttritionApp"
-AUTHOR_USER_NAME = "SarkarPriyanshu"
+AUTHOR_USER_NAME = ""
 SRC_REPO = "Attrition_App"
-AUTHOR_EMAIL = "priyanshusarkar7895@gmail.com"
+AUTHOR_EMAIL = ""
 
 
 setuptools.setup(
